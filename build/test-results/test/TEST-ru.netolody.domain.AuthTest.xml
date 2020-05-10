@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.netolody.domain.AuthTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-05-10T19:33:21" hostname="PC" time="9.936">
+  <properties/>
+  <testcase name="shouldNotRequestWithValidLoginButNotValidPassword()" classname="ru.netolody.domain.AuthTest" time="6.441"/>
+  <testcase name="shouldNotRequestWithValidLoginButWithoutRegistration()" classname="ru.netolody.domain.AuthTest" time="0.777"/>
+  <testcase name="shouldNotRequestWithoutPassword()" classname="ru.netolody.domain.AuthTest" time="0.454"/>
+  <testcase name="shouldNotRequestWithoutLogin()" classname="ru.netolody.domain.AuthTest" time="0.442"/>
+  <testcase name="shouldNotRequestWithValidLoginInfoButStatusBlocked()" classname="ru.netolody.domain.AuthTest" time="0.786"/>
+  <testcase name="shouldRequestWithValidLoginInfo()" classname="ru.netolody.domain.AuthTest" time="0.49"/>
+  <testcase name="shouldNotRequestWithValidPasswordButNotValidLogin()" classname="ru.netolody.domain.AuthTest" time="0.544"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "Thanh",
+    "password": "c3bho5zk5",
+    "status": "active"
+}
+Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "Kip",
+    "password": "kgbn9vht",
+    "status": "active"
+}
+Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "Leia",
+    "password": "akw2mg13gav",
+    "status": "active"
+}
+Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "Lara",
+    "password": "oqivlasvb",
+    "status": "blocked"
+}
+Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "Arlen",
+    "password": "knpv91x6dww1",
+    "status": "active"
+}
+Request method:	POST
+Request URI:	http://localhost:9999/api/system/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "Wynona",
+    "password": "8950e61l",
+    "status": "active"
+}
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 5653
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+мая 10, 2020 10:33:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
